@@ -6,7 +6,7 @@ build_style=gnu-configure
 # tpm support waits on libtss2
 configure_args="--disable-static --enable-blowfish --enable-curl
  --enable-eap-radius --enable-eap-mschapv2 --enable-eap-md5 --enable-led
- --enable-ha --enable-dhcp --enable-mediation --enable-soup --disable-des
+ --enable-ha --enable-dhcp --enable-mediation --enable-soup --enable-des
  --enable-chapoly --enable-nm"
 hostmakedepends="pkg-config flex bison python"
 makedepends="gmp-devel libsoup-devel libldns-devel unbound-devel libcurl-devel NetworkManager-devel"
